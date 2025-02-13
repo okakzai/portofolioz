@@ -1,13 +1,10 @@
-import Image from "next/image";
-
+import Hero from "@/components/Hero";
 export default function Home() {
   return (
-    <main className="bg-black-100 text-white text-center">
-      <h1>
-        Website Portfolio Modern Menggunakan Node.js, Next.js, TypeScript,
-        Three.js, Tailwind CSS, Aceternity UI (ShadCN + Framer Motion) dan
-        Sentry.io
-      </h1>
+    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <div className="max-w-7xl w-full">
+        <Hero />
+      </div>
     </main>
   );
 }
