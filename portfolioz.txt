@@ -1,0 +1,48 @@
+TECH STACK
+- Node.js 21.7.3
+- React 18.3.1
+- Next.js 15.1.7
+- Three.js
+- TypeScript
+- Aceternity UI = Framer Motion + ShadCN
+- Tailwind CSS
+- Sentry.io
+
+DEVELOPMENT
+1. Terminal: mkdir portfolioz
+2. Terminal: cd portoflioz
+3. Terminal: npx create-next-app@latest
+# ./
+# TypeScript
+# ESLint
+# Tailwind CSS
+# No 'src/' directory
+# App Router
+# No Turbopack
+# No import alias
+4. Terminal: npm run dev
+5. Terminal: code .
+6. VS Code: Hapus file 'favicon.ico' di folder 'app'
+7. VS Code: Edit file 'layout.tsx' di folder 'app'
+8. VS Code: Edit file 'global.css' di folder 'app', isikan dari 'https://github.com/adrianhajdin/portfolio'
+9. VS Code: Edit file 'tailwind.config.ts', isikan dari 'https://github.com/adrianhajdin/portfolio'
+10. VS Code: Edit file 'page.tsx' di folder 'app'
+11. VS Code: git init
+12. VS Code: git add .
+13. VS Code: git commit -m "first commit"
+14. VS Code: git branch -M main
+15. VS Code: git remote add origin https://github.com/okakzai/portofolioz.git
+16. VS Code: git pull origin main --rebase
+17. VS Code: git push -u origin main
+18. Terminal: npm i react@18 react-dom@18
+19. Terminal: npm i motion clsx tailwind-merge three @react-three/fiber @types/three
+20. Terminal: npm i mini-svg-data-uri tailwindcss-animate
+21. Terminal: npm i next-themes
+22. Terminal: npm i react-icons
+23. Terminal: npm i react-lottie
+24. Terminal: npm i --save-dev @types/react-lottie
+25. Terminal: npm i framer-motion
+26. Terminal: npm i three-globe
+27. Terminal: npm i @react-three/drei
+
+
